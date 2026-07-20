@@ -12,9 +12,9 @@
 &soft_off { hold-time-ms = <2000>; };
 
 &mt {
-    tapping-term-ms = <350>;
+    tapping-term-ms = <300>;
     flavor = "tap-preferred";
-    quick-tap-ms = <200>;
+    quick-tap-ms = <170>;
 };
 
 / {
@@ -135,7 +135,7 @@
 
         Func_Layer {
             bindings = <
-&kp LG(TAB)    &kp F12  &kp F7  &kp F8  &kp F9     &kp LG(LS(NUMBER_4))                  &none         &none           &kp LS(LA(LC(LG(N7))))        &kp LS(LC(LA(LG(N8))))        &kp LS(LC(LA(LG(N9))))        &kp LC(TAB)      &none
+&kp LG(TAB)    &kp F12  &kp F7  &kp F8  &kp F9     &kp LG(LS(NUMBER_4))                  &none         &none           &kp LS(LA(LC(LG(N7))))        &kp LS(LC(LA(LG(N8))))        &kp LS(LC(LA(LG(N9))))        &kp LC(TAB)      &kp LG(LS(T))
 &kp LG(GRAVE)  &kp F11  &kp F4  &kp F5  &kp F6     &kp LG(LS(NUMBER_3))           &none  &none  &none  &kp LG(LC(Q))   &kp LS(LC(LA(LG(NUMBER_4))))  &kp LG(L)                     &kp LS(LA(LC(LG(NUMBER_6))))  &kp LC(LS(TAB))  &kp LG(LA(L))
 &none          &kp F10  &kp F1  &kp F2  &kp F3     &kp LC(LG(F))         &none           &none         &studio_unlock  &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LC(LA(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))  &kp LA(ENTER)    &kp LS(LA(F))
                                 &none   &kp LG(N)  &kp LG(SPACE)                                       &bootloader     &sys_reset                    &trans
