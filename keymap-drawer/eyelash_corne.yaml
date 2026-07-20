@@ -15,18 +15,18 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - H
-  - J
-  - K
-  - L
+  - {t: '$$mdi:apple-keyboard-control$$', h: J}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: RIGHT GUI}
   - {t: ;, h: ':', s: ':'}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:apple-keyboard-control$$
@@ -42,12 +42,12 @@ layers:
   - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
   - {t: /, h: '?', s: '?'}
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: LANG HANGEUL}
   - {t: '$$mdi:keyboard-esc$$', h: MEDIA}
   - {t: '$$mdi:keyboard-space$$', h: NAVIGATION}
   - {t: '$$mdi:keyboard-tab$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
-  - {t: LANG2, h: NUMBER}
+  - {t: '$$mdi:apple-keyboard-option$$', h: NUMBER}
   - {t: '$$mdi:backspace-reverse-outline$$', h: FUNCTION}
   NUMBER:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -148,7 +148,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   NAVIGATION:
-  - '&studio_unlock'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -177,7 +177,7 @@ layers:
   - PgDn
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -295,20 +295,20 @@ layers:
   - PLAY PAUSE
   - $$mdi:volume-off$$
   FUNCTION:
-  - Ctl+Gui+Q
+  - Gui+$$mdi:keyboard-tab$$
   - F12
   - F7
   - F8
   - F9
   - Gui+Sft+4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Hyper+7, s: Hyper+&}
   - {t: Hyper+8, s: Hyper+*}
   - {t: Hyper+9, s: Hyper+(}
+  - Ctl+$$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Gui+`, s: Gui+~}
   - F11
   - F4
   - F5
@@ -317,31 +317,31 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+Ctl+Q
   - Hyper+4
-  - {t: 'Alt+$$mdi:keyboard-return$$', type: enter}
+  - Gui+L
   - Hyper+6
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Sft+$$mdi:keyboard-tab$$
   - Gui+Alt+L
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F10
   - F1
   - F2
   - F3
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Gui+F
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&studio_unlock'
   - Hyper+1
   - Hyper+2
   - Hyper+3
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: 'Alt+$$mdi:keyboard-return$$', type: enter}
   - Sft+Alt+F
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+N
+  - Gui+$$mdi:keyboard-space$$
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {type: held}
 combos:
 - p: [1, 15, 29]
