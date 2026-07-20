@@ -67,7 +67,7 @@
             bindings = <
 &kp TAB    &kp Q           &kp W           &kp E             &kp R               &kp T                      &none         &kp Y        &kp U                &kp I                          &kp O                              &kp P                         &kp BSPC
 &td0       &mt LEFT_ALT A  &mt LEFT_GUI S  &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &kp G               &none  &none  &none  &kp H        &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K              &mt RIGHT_GUI L                    &Custom_combi COLON SEMI      &Custom_combi DOUBLE_QUOTES SINGLE_QUOTE
-&kp LCTRL  &kp Z           &kp X           &kp C             &kp V               &kp B      &none           &none         &kp N        &kp M                &Custom_combi LESS_THAN COMMA  &Custom_combi GREATER_THAN PERIOD  &Custom_combi QUESTION SLASH  &mt LANG_HANGEUL ESCAPE
+&kp LCTRL  &kp Z           &kp X           &kp C             &kp V               &kp B      &none           &none         &kp N        &kp M                &Custom_combi LESS_THAN COMMA  &Custom_combi GREATER_THAN PERIOD  &Custom_combi QUESTION SLASH  &mt RCTRL ESCAPE
                                            &lt 5 ESCAPE      &lt 3 SPACE         &lt 4 TAB                                &lt 2 ENTER  &lt 1 RIGHT_ALT      &lt 6 DEL
             >;
 
