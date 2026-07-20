@@ -307,7 +307,7 @@ layers:
   - {t: Hyper+8, s: Hyper+*}
   - {t: Hyper+9, s: Hyper+(}
   - Ctl+$$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+Sft+T
   - {t: Gui+`, s: Gui+~}
   - F11
   - F4
